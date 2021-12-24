@@ -34,6 +34,18 @@ element.style {
     transform: translateX(0px) translateY(0px);
 }
 
+.fixed-scroll {
+  position: fixed;
+  bottom: 0;
+  width: 6em;
+  text-align: center;
+  margin: 0 0 1.5em -3em;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-indent: 2px;
+}
+
 .navlink {
   color: white;
   font-family: 'Lora', serif;
