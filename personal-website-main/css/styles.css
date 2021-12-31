@@ -1,0 +1,129 @@
+body {
+    background: radial-gradient(#c0ebe3, #e4b8f4);
+    background-size: 600% 600%;
+    animation: AnimationName 25s ease infinite;
+
+}
+
+.spotify-aura{
+  width: 15rem;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:44% 0}
+    50%{background-position:57% 100%}
+    100%{background-position:44% 0}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:44% 0}
+    50%{background-position:57% 100%}
+    100%{background-position:44% 0}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:44% 0}
+    50%{background-position:57% 100%}
+    100%{background-position:44% 0}
+}
+@keyframes AnimationName {
+    0%{background-position:44% 0}
+    50%{background-position:57% 100%}
+    100%{background-position:44% 0}
+}
+
+element.style {
+    transform: translateX(0px) translateY(0px);
+}
+
+.fixed-scroll {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.navlink {
+  color: white;
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  padding: 7% 20%;
+
+}
+
+h1 {
+  color: white;
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+
+}
+
+h3, h4 {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  padding-top: 1rem;
+}
+
+.intro {
+  width: 90%;
+  padding-top: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.contact-me {
+  text-align: center;
+  padding: 1% 5%;
+
+}
+
+
+.navbar {
+  font-family: 'Lora', serif;
+  padding: 0 25px 0 25px;
+
+}
+
+/* Title */
+#title .title-intro {
+  text-align: left;
+  padding: 20% 15%;
+
+}
+
+/* Currently */
+#current {
+  text-align: left;
+  padding: 20% 15%;
+}
+
+/* Dreaming */
+#dreaming {
+  text-align: left;
+  padding: 20% 15%;
+}
+
+/* Talk to me about */
+#talk {
+  text-align: left;
+  padding: 22% 15%;
+}
+
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
+  color: white;
+}
+
+#footer {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding: 23% 15% 0 15%;
+}
